@@ -53,17 +53,7 @@ koneps-noti/
     https://www.data.go.kr/data/15058815/openapi.do
     ![alt text](img/mypage.png)
 
-4. 실행: `python main.py`
-
-## 테스트/점검 명령
-
-```powershell
-python test_runner.py api      # 나라장터 API 연결 및 응답 구조 점검
-python test_runner.py filter   # 필터 로직(1차/2차/제외/예산) 단위 테스트
-python test_runner.py slack    # Slack 웹훅 전송 테스트
-python test_runner.py preview  # Slack 전송 없이 필터 통과 결과 미리보기
-python test_runner.py full     # 전체 파이프라인(fetch -> filter -> notify) 실행 테스트
-```
+3. 실행: `run_manual.bat` 더블클릭
 
 ## 자동 실행 등록
 
@@ -79,6 +69,16 @@ python test_runner.py full     # 전체 파이프라인(fetch -> filter -> notif
 등록 확인:
 
 - `Win + R` -> `taskschd.msc`
+
+## 테스트/점검 명령
+
+```powershell
+python test_runner.py api      # 나라장터 API 연결 및 응답 구조 점검
+python test_runner.py filter   # 필터 로직(1차/2차/제외/예산) 단위 테스트
+python test_runner.py slack    # Slack 웹훅 전송 테스트
+python test_runner.py preview  # Slack 전송 없이 필터 통과 결과 미리보기
+python test_runner.py full     # 전체 파이프라인(fetch -> filter -> notify) 실행 테스트
+```
 
 ## 주요 설정값
 
