@@ -45,13 +45,15 @@ koneps-noti/
 2. 프로젝트 루트에 `.env` 파일 생성 후 아래 값 입력
 
     API_SERVICE_KEY=여기에_나라장터_API_인증키
+
     SLACK_WEBHOOK_URL=https://hooks.slack.com/services/여기에_웹훅_URL
 
     나라장터 API 인증키는 아래 페이지에서 활용신청 후 마이페이지에서 인증키를 입력합니다.
+
     https://www.data.go.kr/data/15058815/openapi.do
     ![alt text](img/mypage.png)
 
-3. 실행: `python main.py`
+4. 실행: `python main.py`
 
 ## 테스트/점검 명령
 
