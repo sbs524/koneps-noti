@@ -53,22 +53,13 @@ koneps-noti/
     https://www.data.go.kr/data/15058815/openapi.do
     ![alt text](img/mypage.png)
 
-3. 실행: `run_manual.bat` 더블클릭
+3. 실행: `register_scheduler.bat` 더블클릭하여 원하는 배치 시간을 입력하면 끝
 
-## 자동 실행 등록
+(등록 확인: `Win + R` -> `taskschd.msc`)
 
-`register_scheduler.bat` 실행 후 시간을 입력하면 월-금 반복 작업으로 등록됩니다.
+## 수동 실행 방법
 
-최근 스크립트 개선 사항:
-
-- 시간 형식 검증 (`HH:MM`)
-- 시간 범위 검증 (`00:00`~`23:59`)
-- `schtasks` 종료 코드 출력
-- 최종 성공/실패 결과 출력
-
-등록 확인:
-
-- `Win + R` -> `taskschd.msc`
+`run_manual.bat` 실행 시 수동으로 나라장터 알림을 보냅니다.
 
 ## 테스트/점검 명령
 
