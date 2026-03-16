@@ -1,0 +1,11 @@
+# 로그 폴더
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE
+.vscode/
+.idea/
